@@ -1,30 +1,27 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "",
+  "", 
+  "", 
 ];
-
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "Win a $150 Dining Experience at Cafe Landwer!",
+  description: "Enjoy an exclusive dining experience with a $150 gift card to Cafe Landwer, the local favorite known for its vibrant atmosphere and delicious cuisine. Treat yourself, your family, or a loved one to a memorable meal on us!",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Receive a $150 gift card to Cafe Landwer",
+    "Savor a culinary adventure at one of the city's most beloved eateries",
+    "Perfect for food lovers, families, and young professionals",
+    "Experience a delightful meal in a warm, inviting ambiance"
   ],
-  value: "$175",
+  value: "$150",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win a $150 Dining Experience at Cafe Landwer!",
+  description: "Perfect for food lovers, families, and young professionals! Enter for a chance to win a $150 gift card to Cafe Landwer. No purchase necessary.",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
   secondaryImage: prizeImages[1], // Add secondary image for the header
@@ -32,7 +29,7 @@ export const headerContent = {
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Cafe Landwer Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -76,8 +73,8 @@ export const howToEnterContent = {
     },
     { 
       icon: "Gift", 
-      title: "Premium Prize", 
-      desc: "Valued at $175" 
+      title: "Fantastic Prize", 
+      desc: "Valued at $150" 
     }
   ],
   formLabels: {
@@ -105,11 +102,11 @@ export const rulesContent = {
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 18 years or older residing in the designated area can enter this giveaway.",
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "This giveaway runs until April 23, 2025, as indicated by the countdown timer.",
     },
     {
       question: "How will the winner be selected?",
@@ -143,10 +140,10 @@ export const rulesContent = {
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
@@ -156,24 +153,24 @@ export const contactContent = {
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  aboutText: "The Sky Group specializes in offering exclusive giveaways and unique experiences to our valued community members.",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
-  company: "The Sky Group Real Estate",
+  company: "The Sky Group",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("April 23, 2025")
 };
 
 // Color scheme configuration for the entire giveaway
@@ -231,4 +228,4 @@ export const colorScheme = {
     pulseSlow: 'animate-pulse-slow',
     bounceSlow: 'animate-bounce-slow',
   }
-};
+}; 
